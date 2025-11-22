@@ -5,6 +5,8 @@ jupyter==1.0.0
 ipykernel==6.27.1
 matplotlib==3.8.2
 seaborn==0.13.0
+flask==3.0.0
+psycopg2-binary==2.9.9
 
 
 
