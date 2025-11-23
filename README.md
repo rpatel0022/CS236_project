@@ -34,7 +34,7 @@ This project analyzes hotel reservation data through three progressive phases:
 
 ---
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 ### Backend
 
@@ -582,7 +582,7 @@ ORDER BY month;
 
 ---
 
-## 🧪 Testing the Application
+##  Testing the Application
 
 ### 1. Verify Database Connection
 
