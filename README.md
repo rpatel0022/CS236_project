@@ -4,7 +4,7 @@ A comprehensive data engineering project that performs exploratory data analysis
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Technology Stack](#technology-stack)
@@ -18,9 +18,7 @@ A comprehensive data engineering project that performs exploratory data analysis
 - [API Documentation](#api-documentation)
 - [Troubleshooting](#troubleshooting)
 
----
-
-## 🎯 Project Overview
+## Project Overview
 
 This project analyzes hotel reservation data through three progressive phases:
 
@@ -59,7 +57,7 @@ This project analyzes hotel reservation data through three progressive phases:
 
 ---
 
-## 🏗 Project Architecture
+## Project Architecture
 
 ```
 User Browser
@@ -75,7 +73,7 @@ CSV Data Files
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 ### Required Software
 
@@ -119,7 +117,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone and Setup
 
@@ -168,7 +166,7 @@ http://localhost:5001
 
 ---
 
-## 📊 Phase 1: Data Preparation & EDA
+## Phase 1: Data Preparation & EDA
 
 ### Objectives
 
@@ -222,7 +220,7 @@ Performed comprehensive EDA including:
 
 ---
 
-## 📈 Phase 2: Spark Analysis & Database Population
+## Phase 2: Spark Analysis & Database Population
 
 ### Objectives
 
@@ -365,7 +363,7 @@ DB_PASSWORD = "cs236_pass"
 
 ---
 
-## 🌐 Phase 3: WebUI for Searching & Filtering
+## Phase 3: WebUI for Searching & Filtering
 
 ### Objectives
 
@@ -375,13 +373,13 @@ DB_PASSWORD = "cs236_pass"
 
 ### Features
 
-#### 🔍 Dataset Selection
+#### Dataset Selection
 
 - Dropdown menu to select from three available datasets
 - Automatic column detection for selected dataset
 - Real-time schema adaptation
 
-#### 🎛 Dynamic Filtering System
+#### Dynamic Filtering System
 
 - **Add Multiple Filters** - Combine conditions with AND logic
 - **Filter Operators:**
@@ -391,21 +389,6 @@ DB_PASSWORD = "cs236_pass"
   - `less` - Numeric less than
 - **Remove Filters** - Easily delete unwanted conditions
 - **Clear All** - Reset filters and start over
-
-#### 📊 Data Display
-
-- **Responsive Table** - Beautiful, scrollable data grid
-- **Pagination** - Navigate large datasets efficiently
-- **Configurable Page Size** - 25, 50, 100, or 200 rows per page
-- **Row Count Display** - Shows current page and total results
-
-#### 🎨 Modern UI Design
-
-- **Gradient Background** - Professional purple/blue theme
-- **Hover Effects** - Interactive element highlighting
-- **Smooth Animations** - Polished transitions
-- **Mobile Responsive** - Works on all screen sizes
-- **Bootstrap Icons** - Clear visual indicators
 
 ### Application Structure
 
@@ -503,7 +486,7 @@ Returns the main web interface.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 cs236_project/
@@ -551,7 +534,7 @@ cs236_project/
 
 ---
 
-## 🔌 API Documentation
+## API Documentation
 
 ### Database Connection
 
@@ -651,7 +634,7 @@ curl -X POST http://localhost:5001/query \
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Issue: Port 5001 Already in Use
 
@@ -761,7 +744,7 @@ docker logs hotel_reservations
 
 ---
 
-## 📊 Sample Queries to Try
+## Sample Queries to Try
 
 ### Query 1: Affordable Long-Lead Bookings
 
@@ -788,38 +771,17 @@ docker logs hotel_reservations
 - Filter 1: `market_segment_type` = `Online`
 - Filter 2: `booking_status` = `0`
 
----
-
-## 👥 Contributors
-
-**CS236 Project Team**
-
----
-
-## 📄 License
+## License
 
 This project is part of an academic assignment for CS236.
 
 ---
 
-## 🎉 Acknowledgments
+## Acknowledgments
 
 - Apache Spark for distributed data processing
 - PostgreSQL for robust data storage
 - Flask for lightweight web framework
 - Bootstrap for beautiful UI components
-
----
-
-## 📞 Support
-
-For questions or issues:
-
-1. Check the [Troubleshooting](#troubleshooting) section
-2. Verify all prerequisites are installed
-3. Ensure Docker container is running
-4. Check browser console for frontend errors
-
----
 
 **Built with ❤️ for CS236 - Big Data Systems**
